@@ -1,6 +1,12 @@
 {
-  "version": "v1.4-full",
-  "type": "update",
-  "payload_dir": "payload",
-  "notes": "Full TODO implementation update"
+  "version": "1.5.2-beta",
+  "client": "v1.5.2-beta",
+  "release_date": "2026-05-26",
+  "download_url": "DEIN_GITHUB_RELEASE_LINK",
+  "notes": [
+    "update_webshake.bat liest Updates automatisch aus dem updates-Ordner",
+    "Update-Fenster bleibt nach Abschluss offen",
+    "zentrale version.json eingeführt",
+    "alte Hotfix-/Update-Reste werden bereinigt"
+  ]
 }
