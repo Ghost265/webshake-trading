@@ -2,7 +2,7 @@
   "version": "1.5.2-beta",
   "client": "v1.5.2-beta",
   "release_date": "2026-05-26",
-  "download_url": "",
+  "download_url": "https://github.com/Ghost265/webshake-trading/releases/download/v1.5.2-beta/WST-v1.5.2-beta.zip.zip",
   "notes": [
     "update_webshake.bat liest Updates automatisch aus dem updates-Ordner",
     "Update-Fenster bleibt nach Abschluss offen",
