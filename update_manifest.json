@@ -1,12 +1,7 @@
 {
-  "version": "1.5.2-beta",
-  "client": "v1.5.2-beta",
+  "version": "1.5.3-beta",
+  "client": "v1.5.3-beta",
   "release_date": "2026-05-26",
-  "download_url": "https://github.com/Ghost265/webshake-trading/releases/tag/v1.5.2-beta",
-  "notes": [
-    "update_webshake.bat liest Updates automatisch aus dem updates-Ordner",
-    "Update-Fenster bleibt nach Abschluss offen",
-    "zentrale version.json eingeführt",
-    "alte Hotfix-/Update-Reste werden bereinigt"
-  ]
+  "download_url": "https://github.com/Ghost265/webshake-trading/releases/download/v1.5.3-beta/WST-v1.5.3-beta.zip",
+  "notes": "Test-Update über GitHub Actions"
 }
