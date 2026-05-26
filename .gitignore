@@ -31,3 +31,7 @@ Desktop.ini
 logs/
 temp/
 backups/
+
+# Releases
+releases/*.zip
+releases/*.exe
