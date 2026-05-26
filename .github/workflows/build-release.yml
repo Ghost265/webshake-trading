@@ -1,0 +1,137 @@
+name: Build Webshake-Trading Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version ohne v, z.B. 1.5.3-beta"
+        required: true
+        type: string
+      notes:
+        description: "Release-Notizen, eine Zeile pro Punkt"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  build-release:
+    name: Build ZIP and publish release
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Prepare version files
+        shell: pwsh
+        run: |
+          $rawVersion = "${{ github.event.inputs.version }}".Trim()
+          $cleanVersion = $rawVersion -replace '^v', ''
+          $tag = "v$cleanVersion"
+          $clientVersion = "v$cleanVersion"
+          $zipName = "WST-v$cleanVersion.zip"
+          $releaseDate = Get-Date -Format "yyyy-MM-dd"
+          $downloadUrl = "https://github.com/${{ github.repository }}/releases/download/$tag/$zipName"
+
+          $notesRaw = @'
+          ${{ github.event.inputs.notes }}
+          '@.Trim()
+
+          if ([string]::IsNullOrWhiteSpace($notesRaw)) {
+            $notes = @(
+              "Automatischer GitHub-Actions-Release",
+              "ZIP-Datei wurde aus dem payload-Ordner erstellt",
+              "update_manifest.json wurde automatisch aktualisiert"
+            )
+          } else {
+            $notes = $notesRaw -split "`r?`n" | Where-Object { -not [string]::IsNullOrWhiteSpace($_) }
+          }
+
+          $versionJson = [ordered]@{
+            version = $cleanVersion
+            client = $clientVersion
+          }
+
+          $manifestJson = [ordered]@{
+            version = $cleanVersion
+            client = $clientVersion
+            release_date = $releaseDate
+            download_url = $downloadUrl
+            notes = $notes
+          }
+
+          $versionJson | ConvertTo-Json -Depth 10 | Set-Content -Path "version.json" -Encoding UTF8
+          $manifestJson | ConvertTo-Json -Depth 10 | Set-Content -Path "update_manifest.json" -Encoding UTF8
+
+          "CLEAN_VERSION=$cleanVersion" | Out-File -FilePath $env:GITHUB_ENV -Append
+          "TAG_NAME=$tag" | Out-File -FilePath $env:GITHUB_ENV -Append
+          "ZIP_NAME=$zipName" | Out-File -FilePath $env:GITHUB_ENV -Append
+          "CLIENT_VERSION=$clientVersion" | Out-File -FilePath $env:GITHUB_ENV -Append
+
+      - name: Commit version files
+        shell: pwsh
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add version.json update_manifest.json
+
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) {
+            Write-Host "Keine Änderungen an version.json/update_manifest.json."
+          } else {
+            git commit -m "Prepare release $env:CLIENT_VERSION"
+            git push
+          }
+
+      - name: Build release ZIP
+        shell: pwsh
+        run: |
+          if (!(Test-Path "payload")) {
+            Write-Error "Ordner 'payload' wurde nicht gefunden."
+            exit 1
+          }
+
+          New-Item -ItemType Directory -Force -Path "releases" | Out-Null
+
+          $zipPath = "releases/$env:ZIP_NAME"
+          if (Test-Path $zipPath) {
+            Remove-Item $zipPath -Force
+          }
+
+          Compress-Archive -Path "payload/*" -DestinationPath $zipPath -Force
+
+          if (!(Test-Path $zipPath)) {
+            Write-Error "ZIP konnte nicht erstellt werden."
+            exit 1
+          }
+
+          Write-Host "ZIP erstellt: $zipPath"
+
+      - name: Create GitHub release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          $releaseNotes = @"
+          Webshake-Trading $env:CLIENT_VERSION
+
+          Automatisch gebaut mit GitHub Actions.
+
+          ZIP:
+          $env:ZIP_NAME
+          "@
+
+          gh release view $env:TAG_NAME 2>$null
+          if ($LASTEXITCODE -eq 0) {
+            Write-Error "Release/Tag $env:TAG_NAME existiert bereits. Bitte neue Version verwenden."
+            exit 1
+          }
+
+          gh release create $env:TAG_NAME "releases/$env:ZIP_NAME" `
+            --title "Webshake-Trading $env:CLIENT_VERSION" `
+            --notes $releaseNotes
