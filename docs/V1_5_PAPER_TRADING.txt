@@ -1,0 +1,11 @@
+V1.5 Paper-Trading Hinweise
+
+Dieses Update aktiviert ausschließlich simuliertes Paper-Trading.
+Es werden keine echten Coinbase-Orders erstellt.
+
+Neue API:
+GET  /api/paper/status
+POST /api/paper/decision
+POST /api/paper/reset
+
+Die KI darf Paper-BUY/SELL simulieren, wenn die Confidence-Grenzen erreicht sind.

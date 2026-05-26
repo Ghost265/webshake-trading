@@ -1,0 +1,9 @@
+Webshake Trading v1.8.7 Beta
+
+- BUY / SELL / HOLD Prozentanzeige wieder eingebaut
+- Guthaben-Berechnung im Paper-Trading korrigiert
+- Startkapital, freies EUR, BTC-Bestand, BTC-Wert, Gesamtwert und Gewinn/Verlust werden sauber berechnet
+- Startschutz-Anzeige bleibt erhalten
+- Multi-Timeframe-Analyse bleibt erhalten
+- keine UI-Struktur geändert
+- keine echten Coinbase-Orders

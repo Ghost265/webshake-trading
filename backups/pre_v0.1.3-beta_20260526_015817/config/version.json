@@ -1,0 +1,15 @@
+{
+  "version": "v0.1.2-beta",
+  "client_version": "v0.1.2-beta",
+  "updated_at": "2026-05-26T01:39:38",
+  "update_engine": "v1.7.5",
+  "notes": [
+    "Dashboard optimiert",
+    "Live-Refresh über zentralen 1-Sekunden-Timer",
+    "Nur sichtbare Bereiche werden aktualisiert",
+    "Backend-Sicherheit: Trading/Lernen stoppt bei instabilem Backend",
+    "KI-Entscheidung mit 24H High-/Low-Gewichtung",
+    "backend_start.log wird zuverlässig erstellt",
+    "TODO aktualisiert"
+  ]
+}

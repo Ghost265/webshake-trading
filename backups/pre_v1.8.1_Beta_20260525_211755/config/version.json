@@ -1,0 +1,14 @@
+{
+  "version": "v1.8.0 Beta",
+  "client_version": "CLIENT v1.8.0-beta",
+  "updated_at": "2026-05-25T21:09:38",
+  "update_engine": "v1.7.5",
+  "notes": [
+    "Multi-Timeframe-Analyse im Dashboard wiederhergestellt",
+    "Startschutz verhindert automatischen Kauf direkt nach Softwarestart",
+    "Paper-Trading wird erst nach 5 Minuten Beobachtungszeit freigegeben",
+    "Update startet Webshake nach erfolgreicher Installation automatisch",
+    "CPU-Safe Backend bleibt aktiv",
+    "keine echten Coinbase-Orders"
+  ]
+}

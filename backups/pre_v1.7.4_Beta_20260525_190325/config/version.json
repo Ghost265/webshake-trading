@@ -1,0 +1,13 @@
+{
+  "version": "v1.7.3 Beta",
+  "updated_at": "2026-05-25T18:38:14",
+  "update_engine": "v1.5.2",
+  "notes": [
+    "Paper-Trading Debug-/Lernmodus aktiviert",
+    "KI eröffnet automatisch kleine simulierte Paper-BUY Trades, wenn keine Position offen ist",
+    "Paper-Debug-API ergänzt: /api/paper/debug",
+    "Force-Buy-Test ergänzt: /api/paper/force-buy",
+    "Multi-Timeframe erhält sichere Fallback-Daten",
+    "Keine echten Coinbase-Orders"
+  ]
+}

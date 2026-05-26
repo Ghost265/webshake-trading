@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+
+# Build Ordner
+dist/
+build/
+out/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Git
+.git/

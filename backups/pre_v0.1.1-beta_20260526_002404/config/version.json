@@ -1,0 +1,18 @@
+{
+  "version": "v0.1.0-beta",
+  "client_version": "v0.1.0-beta",
+  "updated_at": "2026-05-26T00:09:56",
+  "update_engine": "v1.7.5",
+  "notes": [
+    "BUY / SELL / HOLD Anzeige schöner dargestellt",
+    "Startschutz wird bei jedem Start sauber neu gestartet und bleibt bei 60 Sekunden",
+    "Update-Neustart fragt: Neustart, Update installieren oder Abbrechen",
+    "Datenbank-Einträge können gelöscht werden",
+    "Dashboard refresh schneller und CPU-sicher",
+    "KI-Datenspeicher-Limits ergänzt",
+    "Guthaben-Berechnung bleibt korrigiert",
+    "Multi-Timeframe-Analyse und Startschutz-Anzeige bleiben erhalten",
+    "keine MySQL-Migration in diesem Update",
+    "keine echten Coinbase-Orders"
+  ]
+}

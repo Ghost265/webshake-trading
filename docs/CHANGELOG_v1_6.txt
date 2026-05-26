@@ -1,0 +1,9 @@
+Webshake Trading v1.6 Beta
+
+- Multi-Timeframe-System integriert
+- KI beobachtet 1M, 5M, 15M, 1H, 4H und 24H
+- Trend, Momentum und Volatilität je Zeitraum
+- KI-Entscheidung kombiniert mehrere Zeiträume
+- Paper-Trading handelt nur, wenn mehrere Zeiträume zusammenpassen
+- Neue API: /api/market/timeframes
+- Changelog und Versionsanzeige auf v1.6 gesetzt

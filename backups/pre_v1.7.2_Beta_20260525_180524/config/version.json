@@ -1,0 +1,13 @@
+{
+  "version": "v1.7.1 Beta",
+  "updated_at": "2026-05-25T14:54:10",
+  "update_engine": "v1.5.2",
+  "notes": [
+    "Multi-Timeframe-Anzeige sichtbar repariert",
+    "1M / 5M / 15M / 1H / 4H / 24H nutzen Coinbase-Historie oder Runtime-Fallback",
+    "Datenpunkte je Zeitraum werden zuverlässig angezeigt",
+    "BUY / SELL / HOLD Prozentwerte werden notfalls aus der aktuellen KI-Entscheidung berechnet",
+    "Paper-Trading nutzt weiterhin Multi-Timeframe-Signale",
+    "Keine echten Coinbase-Orders"
+  ]
+}

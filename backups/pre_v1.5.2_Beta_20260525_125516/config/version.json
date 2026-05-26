@@ -1,0 +1,11 @@
+{
+  "version": "v1.5.1 Beta",
+  "updated_at": "2026-05-25T12:46:43",
+  "update_engine": "v1.0.5",
+  "notes": [
+    "Paper-Trading sichtbar aktiviert",
+    "Changelog-Anzeige repariert",
+    "Versionsanzeige aus Backend/API",
+    "Auto-Paper-Trading über KI-Analyse"
+  ]
+}

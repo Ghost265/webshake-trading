@@ -1,0 +1,6 @@
+Webshake Trading v1.5.3 Beta
+
+- Frontend/Oberfläche stabil repariert
+- main.jsx Parse-/Changelog-Fehler entfernt
+- CSS/Layout aus stabiler Basis wiederhergestellt
+- Versionsanzeige auf v1.5.3 Beta gesetzt

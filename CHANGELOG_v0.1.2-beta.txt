@@ -1,0 +1,9 @@
+Webshake-Trading v0.1.3-beta
+
+- Dashboard optimiert
+- Live-Refresh über zentralen 1-Sekunden-Timer
+- Nur sichtbare Bereiche werden aktualisiert
+- Backend-Sicherheit: Trading/Lernen stoppt bei instabilem Backend
+- KI-Entscheidung mit 24H High-/Low-Gewichtung
+- backend_start.log wird zuverlässig erstellt
+- TODO aktualisiert

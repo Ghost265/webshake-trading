@@ -1,0 +1,8 @@
+Webshake-Trading v0.1.1-beta
+
+- Dashboard-Statuskarten kompakter dargestellt
+- Block 'Aktuelle KI-Entscheidung' schmaler gestaltet
+- mehr Platz für Multi-Timeframe-Analyse
+- BUY / SELL / HOLD Anzeige kompakter
+- keine UI-Struktur geändert
+- keine echten Coinbase-Orders

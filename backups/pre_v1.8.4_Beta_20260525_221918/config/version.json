@@ -1,0 +1,15 @@
+{
+  "version": "v1.8.3 Beta",
+  "client_version": "CLIENT v1.8.3-beta",
+  "updated_at": "2026-05-25T22:07:16",
+  "update_engine": "v1.7.5",
+  "notes": [
+    "Hotfix aus v1.8.2 fest integriert",
+    "Pfadfehler beim automatischen Start nach Update behoben",
+    "update_webshake.bat stabilisiert",
+    "restart_webshake.bat stabilisiert",
+    "update_restart.bat stabilisiert",
+    "Version auf v1.8.3 Beta angehoben",
+    "keine echten Coinbase-Orders"
+  ]
+}

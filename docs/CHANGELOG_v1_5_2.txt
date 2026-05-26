@@ -1,0 +1,8 @@
+v1.5.2 Beta
+
+- Versionsanzeige final auf Backend/API umgestellt.
+- Changelog erscheint nach Update versionsgebunden.
+- Paper-Trading ist sichtbar und aktiv pruefbar.
+- Paper-BUY/Paper-SELL Regeln werden im Dashboard/Live-Trading sichtbar.
+- Paper-Trades werden in Tradeuebersicht und Datenbank sichtbar.
+- Keine echten Coinbase-Orders.

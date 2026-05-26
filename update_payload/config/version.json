@@ -1,0 +1,10 @@
+{
+  "version": "v1.0.3 Beta",
+  "updated_at": "2026-05-23T13:30:00",
+  "update_engine": "v1.0.3",
+  "notes": [
+    "Zentrale Update-Engine installiert",
+    "Updates koennen zukuenftig in den Ordner updates gelegt werden",
+    "update_webshake.bat installiert automatisch das neueste Update-Paket"
+  ]
+}

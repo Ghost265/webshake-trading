@@ -1,0 +1,13 @@
+{
+  "version": "v1.8.5 Beta",
+  "client_version": "CLIENT v1.8.5-beta",
+  "updated_at": "2026-05-25T22:26:42",
+  "update_engine": "v1.7.5",
+  "notes": [
+    "Multi-Timeframe-Analyse im Dashboard wieder eingebaut",
+    "1M / 5M / 15M / 1H / 4H / 24H werden wieder angezeigt",
+    "Runtime-Multi-Timeframe-Daten werden wieder vom Backend geladen",
+    "UI-Repair aus v1.8.4 bleibt erhalten",
+    "keine echten Coinbase-Orders"
+  ]
+}

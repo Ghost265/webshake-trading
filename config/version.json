@@ -1,0 +1,13 @@
+{
+  "version": "v0.1.3-beta",
+  "client_version": "v0.1.3-beta",
+  "updated_at": "2026-05-26T01:58:17",
+  "update_engine": "v1.7.5",
+  "notes": [
+    "Startscript repariert",
+    "backend_start.log und backend_error.log werden getrennt geschrieben",
+    "PowerShell RedirectStandardOutput/RedirectStandardError Fehler behoben",
+    "Backend-Start wieder stabilisiert",
+    "keine echten Coinbase-Orders"
+  ]
+}

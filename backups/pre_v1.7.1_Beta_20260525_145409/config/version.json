@@ -1,0 +1,14 @@
+{
+  "version": "v1.7 Beta",
+  "updated_at": "2026-05-25T14:29:19",
+  "update_engine": "v1.5.2",
+  "notes": [
+    "Multi-Timeframe-Historie über Coinbase-Candles integriert",
+    "1M / 5M / 15M / 1H / 4H / 24H werden schneller auswertbar",
+    "Datenpunkte und Auswertbarkeit je Zeitraum sichtbar",
+    "Aktuelle KI-Entscheidung zeigt BUY / SELL / HOLD Prozentübersicht",
+    "Paper-Trading nutzt Multi-Timeframe-Mehrheit für simulierte Trades",
+    "UNKNOWN-Zustand wird deutlich reduziert",
+    "Keine echten Coinbase-Orders"
+  ]
+}

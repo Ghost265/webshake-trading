@@ -1,0 +1,12 @@
+{
+  "version": "v1.8.1 Beta",
+  "client_version": "CLIENT v1.8.1-beta",
+  "paper_reset_once": true,
+  "paper_reset_reason": "Einmaliger Reset aller Trades und Neustart mit 50 EUR",
+  "paper_start_balance_eur": 50.0,
+  "paper_delete_all_trades": true,
+  "paper_delete_ai_history": true,
+  "paper_close_open_positions": true,
+  "paper_start_protection_seconds": 60,
+  "updated_at": "2026-05-25 19:17:03"
+}

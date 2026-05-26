@@ -1,0 +1,13 @@
+{
+  "version": "v1.8.1 Beta",
+  "client_version": "CLIENT v1.8.1-beta",
+  "updated_at": "2026-05-25T21:17:56",
+  "update_engine": "v1.7.5",
+  "notes": [
+    "Einmaliger Reset aller bisherigen Paper-Trades",
+    "Startkapital einmalig auf 50,00 EUR gesetzt",
+    "Startschutz auf 60 Sekunden reduziert",
+    "CMD-Fenster schließen sich nach erfolgreichem Start automatisch",
+    "Keine echten Coinbase-Orders"
+  ]
+}

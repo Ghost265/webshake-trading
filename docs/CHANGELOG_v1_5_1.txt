@@ -1,0 +1,5 @@
+v1.5.1 Beta
+- Paper-Trading sichtbar aktiviert
+- KI kann Paper-Trades simulieren
+- Changelog wird beim ersten Start angezeigt
+- Version v1.5.1 zentral gesetzt

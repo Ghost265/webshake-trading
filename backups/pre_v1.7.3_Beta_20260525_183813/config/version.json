@@ -1,0 +1,13 @@
+{
+  "version": "v1.7.2 Beta",
+  "updated_at": "2026-05-25T18:05:24",
+  "update_engine": "v1.5.2",
+  "notes": [
+    "Paper-Trading-Lernmodus aktiviert",
+    "KI darf kleine simulierte BUY/SELL-Trades ausführen",
+    "Multi-Timeframe blockiert Paper-Trading nicht mehr dauerhaft",
+    "BUY / SELL / HOLD Prozentwerte werden immer sichtbar berechnet",
+    "1M / 5M / 15M / 1H / 4H / 24H erhalten Fallback-Daten",
+    "Keine echten Coinbase-Orders"
+  ]
+}

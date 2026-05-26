@@ -1,0 +1,13 @@
+{
+  "app": "Webshake Trading",
+  "version": "v1.5-beta",
+  "type": "update",
+  "requires": "v1.4-full or newer",
+  "features": [
+    "Paper-Trading aktiv",
+    "Versionsanzeige Fix",
+    "Paper-Trading API",
+    "Paper-Trading Datenbank-Migration"
+  ],
+  "install": "copy/merge via update_webshake.bat"
+}

@@ -1,0 +1,12 @@
+{
+  "version": "v1.0.4 Beta",
+  "updated_at": "2026-05-23T17:24:18",
+  "update_engine": "v1.0.3",
+  "notes": [
+    "Versionsanzeige auf v1.0.4 Beta synchronisiert",
+    "Dashboard-HIGH/LOW nutzt echte 24H-Marktdaten",
+    "API-Endpunkt /api/market/24h enthalten",
+    "Backend-Healthcheck und Versionsdatei stabilisiert",
+    "Kompatibel mit der neuen Update-Engine: ZIP in updates-Ordner legen und update_webshake.bat starten"
+  ]
+}

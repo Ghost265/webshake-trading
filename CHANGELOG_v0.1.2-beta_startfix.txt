@@ -1,0 +1,7 @@
+Webshake-Trading v0.1.3-beta Startfix
+
+- Startscript repariert
+- PowerShell RedirectStandardOutput/RedirectStandardError Fehler behoben
+- backend_start.log und backend_error.log werden getrennt geschrieben
+- Frontend-Logs werden ebenfalls getrennt geschrieben
+- Backend-Start sollte wieder funktionieren

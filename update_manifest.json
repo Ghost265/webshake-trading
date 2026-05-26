@@ -1,0 +1,6 @@
+{
+  "version": "v1.4-full",
+  "type": "update",
+  "payload_dir": "payload",
+  "notes": "Full TODO implementation update"
+}

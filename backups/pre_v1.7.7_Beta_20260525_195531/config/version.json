@@ -1,0 +1,13 @@
+{
+  "version": "v1.7.5 Beta",
+  "updated_at": "2026-05-25T19:19:33",
+  "update_engine": "v1.5.2",
+  "notes": [
+    "Update-Engine beendet Backend/Frontend/Electron vor der Installation sauber",
+    "Alter Backend-Prozess wird auf Port 8765 zwangsweise beendet",
+    "Alter Frontend-Prozess wird auf Port 5173 zwangsweise beendet",
+    "Nach Update lädt Backend den neuen Code wirklich frisch",
+    "/api/market/timeframes kann danach korrekt vom neuen Backend geladen werden",
+    "Keine echten Coinbase-Orders"
+  ]
+}

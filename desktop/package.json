@@ -1,0 +1,22 @@
+{
+  "name": "webshake-trading",
+  "version": "1.0.0-clean",
+  "private": true,
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "vite": "vite",
+    "start": "electron .",
+    "electron": "electron .",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "electron": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {}
+}

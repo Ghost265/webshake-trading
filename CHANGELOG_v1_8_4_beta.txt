@@ -1,0 +1,8 @@
+Webshake Trading v1.8.4 Beta
+
+- Oberfläche aus stabiler Basis wiederhergestellt
+- Blank-Screen / leere Oberfläche repariert
+- React-Frontend zurück auf lauffähige Version gesetzt
+- Vite-Cache wird beim Start geleert
+- Pfadfix aus v1.8.3 bleibt integriert
+- keine echten Coinbase-Orders

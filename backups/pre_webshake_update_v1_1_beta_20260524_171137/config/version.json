@@ -1,0 +1,13 @@
+{
+  "version": "v1.0.5 Beta",
+  "updated_at": "2026-05-23T17:40:27",
+  "update_engine": "v1.0.3",
+  "notes": [
+    "Versionsanzeige liest die Version jetzt dynamisch aus dem Backend-Status",
+    "Backend liest config/version.json als zentrale Versionsquelle",
+    "API-Endpunkt /api/version hinzugefuegt",
+    "Update-Engine archiviert installierte Update-ZIPs automatisch unter updates/installed",
+    "Update-Engine ignoriert alte ZIPs besser und nutzt das neueste Paket",
+    "Update-Fenster bleibt nach Abschluss offen"
+  ]
+}

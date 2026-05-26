@@ -1,0 +1,14 @@
+{
+  "version": "v1.7.9 Beta",
+  "client_version": "CLIENT v1.7.9-beta",
+  "updated_at": "2026-05-25T20:48:06",
+  "update_engine": "v1.7.5",
+  "notes": [
+    "Backend CPU-Safe-Modus aktiviert",
+    "Coinbase-Candle-Abfragen deaktiviert",
+    "Multi-Timeframe wird aus Runtime-Daten berechnet",
+    "Frontend-Abfragen gedrosselt",
+    "Paper-BUY wird nur einmal eröffnet, wenn keine Position offen ist",
+    "keine echten Coinbase-Orders"
+  ]
+}

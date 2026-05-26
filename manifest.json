@@ -1,0 +1,9 @@
+{
+  "version": "v1.0.3 Beta",
+  "notes": [
+    "update_webshake.bat liest Updates zukuenftig automatisch aus dem updates-Ordner",
+    "Update-Fenster bleibt nach Abschluss offen",
+    "zentrale version.json eingefuehrt",
+    "alte Hotfix-/Update-Reste werden bereinigt"
+  ]
+}

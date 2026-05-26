@@ -1,0 +1,16 @@
+{
+  "version": "v1.8.2 Beta",
+  "client_version": "CLIENT v1.8.2-beta",
+  "updated_at": "2026-05-25T21:57:51",
+  "update_engine": "v1.7.5",
+  "notes": [
+    "Update-Neustart fragt: Software neu starten, Update installieren oder Abbrechen",
+    "Startschutz wird im Dashboard farblich angezeigt",
+    "Startschutz auf 60 Sekunden gesetzt",
+    "Datenbank-Einträge können über Einstellungen gelöscht werden",
+    "Update-Fenster und Start-CMD schließen sich bei Erfolg automatisch",
+    "Fehler-CMDs bleiben mit Pause sichtbar",
+    "Einmaliger Paper-Reset auf 50,00 EUR",
+    "keine echten Coinbase-Orders"
+  ]
+}
