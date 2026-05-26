@@ -1,9 +1,12 @@
 {
-  "version": "v1.0.3 Beta",
+  "version": "1.5.2-beta",
+  "client": "v1.5.2-beta",
+  "release_date": "2026-05-26",
+  "download_url": "",
   "notes": [
-    "update_webshake.bat liest Updates zukuenftig automatisch aus dem updates-Ordner",
+    "update_webshake.bat liest Updates automatisch aus dem updates-Ordner",
     "Update-Fenster bleibt nach Abschluss offen",
-    "zentrale version.json eingefuehrt",
+    "zentrale version.json eingeführt",
     "alte Hotfix-/Update-Reste werden bereinigt"
   ]
 }
